@@ -1,3 +1,11 @@
+/* Kalau mau jarak antar kartu lebih padat dan judul/subjudul rata kiri seperti contohmu, tambahkan CSS ini ke */
+/* padatkan grid portfolio */
+#portfolio-grid .portfolio-item{ padding-bottom: 1rem; }
+#portfolio-grid .portfolio-info h4{ font-weight: 600; margin: .5rem 0 .25rem; }
+#portfolio-grid .portfolio-info p{ margin-bottom: .25rem; color:#6c757d; }
+#portfolio-grid .portfolio-wrap img{ border-radius: 8px; }
+
+
 /**
 * Template Name: iPortfolio
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -1322,3 +1330,13 @@ font icon samping judul
 
 /* Tambahkan styling tambahan sesuai kebutuhan */
 
+
+/* ================================================================================================================= */
+/* Style kecil untuk tombol View Project */
+#portfolio-grid .btn.rounded-pill {
+  transition: all .2s ease-in-out;
+}
+#portfolio-grid .btn.rounded-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(20,159,214,.18);
+}

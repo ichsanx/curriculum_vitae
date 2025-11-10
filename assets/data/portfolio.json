@@ -1,14 +1,156 @@
 [
   {
-    "title": "E-Commerce Delivery Timeliness",
-    "subtitle": "Machine Learning / Python",
-    "image": "assets/img/portfolio/ecommerce_shipping.jpg",
-    "link": "https://datascienceportfol.io/portofoliobybintang"
+    "slug": "webhozz-php-website",
+    "title": "WebHozz – PHP Website Development Training",
+    "subtitle": "PHP / MySQL / Full-stack",
+    "image": "assets/img/portfolio/business_analysis.jpg",
+    "github": "https://github.com/ichsanx/webhozz",
+    "link": "https://github.com/ichsanx/webhozz",
+    "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    "about": "Latihan membangun website dinamis berbasis PHP + MySQL: layout, CRUD, dan server-side logic. Selesai & tersertifikasi (26 Nov 2016).",
+    "gallery": ["assets/img/portfolio/business_analysis.jpg"]
   },
   {
-    "title": "Business Performance with SQL",
-    "subtitle": "SQL / PostgreSQL",
-    "image": "assets/img/portfolio/business_analysis.jpg",
-    "link": "https://datascienceportfol.io/portofoliobybintang"
+    "slug": "sipusta-library-system",
+    "title": "SIPUSTA – Library Management Website",
+    "subtitle": "Full-stack / CRUD / Reporting",
+    "image": "assets/img/portfolio/churn_dashboard.jpg",
+    "github": "https://github.com/ichsanx/sipusta",
+    "link": "https://github.com/ichsanx/sipusta",
+    "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    "about": "Sistem web perpustakaan: katalog, peminjaman-pengembalian, manajemen user, dan laporan cetak.",
+    "gallery": ["assets/img/portfolio/churn_dashboard.jpg"]
+  },
+  {
+    "slug": "vionet-club-website",
+    "title": "VIONET – Club Website & Dashboard KAS",
+    "subtitle": "Full-stack / Dashboard / Auth",
+    "image": "assets/img/portfolio/vionet.jpg",
+    "github": "https://github.com/ichsanx/vionet",
+    "link": "https://github.com/ichsanx/vionet",
+    "skills": ["PHP", "MySQL", "Bootstrap", "Auth", "CRUD"],
+    "about": "Website komunitas Vision Owner Network + admin dashboard untuk manajemen kas/keuangan dan konten acara/berita.",
+    "gallery": ["assets/img/portfolio/vionet.jpg"]
+  },
+  {
+    "slug": "revou-portfolio-site",
+    "title": "Personal Portfolio – RevoU Fundamental Course",
+    "subtitle": "Front-end / Responsive",
+    "image": "assets/img/portfolio/revou-portfolio.jpg",
+    "github": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
+    "link": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
+    "skills": ["HTML", "CSS", "JavaScript", "UI/UX"],
+    "about": "Website portofolio responsif menampilkan proyek, pencapaian, dan kontak. Deploy via GitHub Pages.",
+    "gallery": ["assets/img/portfolio/revou-portfolio.jpg"]
+  },
+  {
+    "slug": "sales-dashboard-excel",
+    "title": "Sales Data Visualization – PT. Tumbuh Bersama",
+    "subtitle": "Excel Dashboard / BI",
+    "image": "assets/img/portfolio/sales-excel.jpg",
+    "github": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
+    "link": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
+    "skills": ["Excel", "Dashboard", "Data Cleaning"],
+    "about": "Dashboard interaktif memantau tren penjualan per wilayah & kategori untuk insight bisnis bulanan.",
+    "gallery": ["assets/img/portfolio/sales-excel.jpg"]
+  },
+  {
+    "slug": "datastudio-kpi-dashboard",
+    "title": "Data Visualization with Google Data Studio",
+    "subtitle": "Google Data Studio / KPI",
+    "image": "assets/img/portfolio/datastudio.jpg",
+    "github": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
+    "link": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
+    "skills": ["Data Studio", "Reporting", "Storytelling"],
+    "about": "Membangun dashboard KPI dinamis untuk monitoring performa dan pelaporan manajemen.",
+    "gallery": ["assets/img/portfolio/datastudio.jpg"]
+  },
+  {
+    "slug": "tech-store-sales-eda",
+    "title": "Tech Store Sales Analysis",
+    "subtitle": "Python EDA / Visualization",
+    "image": "assets/img/portfolio/tech-store-eda.jpg",
+    "github": "https://github.com/ichsanx/Task-Intermediate-Level-Certification-Ichsan_batch34",
+    "link": "https://github.com/ichsanx/Task-Intermediate-Level-Certification-Ichsan_batch34",
+    "skills": ["Python", "Pandas", "Matplotlib", "EDA"],
+    "about": "Eksplorasi data penjualan: musiman, produk terlaris, dan pola performa untuk rekomendasi taktis.",
+    "gallery": ["assets/img/portfolio/tech-store-eda.jpg"]
+  },
+  {
+    "slug": "bigquery-sql-exploration",
+    "title": "SQL Data Exploration – Google BigQuery",
+    "subtitle": "SQL / Aggregation / Joins",
+    "image": "assets/img/portfolio/bigquery-sql.jpg",
+    "github": "https://github.com/ichsanx/SQL-with-Google-BigQuery",
+    "link": "https://github.com/ichsanx/SQL-with-Google-BigQuery",
+    "skills": ["SQL", "BigQuery", "Aggregation"],
+    "about": "Eksplorasi data skala besar dengan join, agregasi, dan temporary tables untuk mendapatkan insight.",
+    "gallery": ["assets/img/portfolio/bigquery-sql.jpg"]
+  },
+  {
+    "slug": "growia-python-notebooks",
+    "title": "Data Cleaning & Analysis in Python (Growia)",
+    "subtitle": "Python / EDA / Preprocessing",
+    "image": "assets/img/portfolio/growia-python.jpg",
+    "github": "https://github.com/ichsanx/File-Notebook-Python-Growia",
+    "link": "https://github.com/ichsanx/File-Notebook-Python-Growia",
+    "skills": ["Python", "Pandas", "Matplotlib", "EDA"],
+    "about": "Pembersihan, transformasi, dan analisis data untuk menemukan pola dan hubungan yang bermakna.",
+    "gallery": ["assets/img/portfolio/growia-python.jpg"]
+  },
+  {
+    "slug": "tableau-executive-dashboard",
+    "title": "Dashboard Visualization with Tableau",
+    "subtitle": "Tableau / KPIs",
+    "image": "assets/img/portfolio/tableau.jpg",
+    "github": "https://github.com/ichsanx/Visualization-with-Tableau",
+    "link": "https://github.com/ichsanx/Visualization-with-Tableau",
+    "skills": ["Tableau", "Data Viz", "Storytelling"],
+    "about": "Dashboard eksekutif untuk memantau KPI penjualan & tren dengan filter interaktif.",
+    "gallery": ["assets/img/portfolio/tableau.jpg"]
+  },
+  {
+    "slug": "codingstudio-c",
+    "title": "C Programming Fundamentals – Coding Studio",
+    "subtitle": "C / Algorithms",
+    "image": "assets/img/portfolio/c-fundamental.jpg",
+    "github": "https://github.com/ichsanx/Algoritma-Pemograman-C",
+    "link": "https://github.com/ichsanx/Algoritma-Pemograman-C",
+    "skills": ["C", "Algorithm", "Problem Solving"],
+    "about": "Latihan dasar algoritma & procedural programming menggunakan bahasa C.",
+    "gallery": ["assets/img/portfolio/c-fundamental.jpg"]
+  },
+  {
+    "slug": "codingstudio-python",
+    "title": "Python Programming – Coding Studio",
+    "subtitle": "Python Basics / OOP",
+    "image": "assets/img/portfolio/python-codingstudio.jpg",
+    "github": "https://github.com/ichsanx/Python-Project-Coding-Studio",
+    "link": "https://github.com/ichsanx/Python-Project-Coding-Studio",
+    "skills": ["Python", "Functions", "OOP"],
+    "about": "Kumpulan script latihan: loop, fungsi, kondisi, dan kelas.",
+    "gallery": ["assets/img/portfolio/python-codingstudio.jpg"]
+  },
+  {
+    "slug": "codingstudio-mysql",
+    "title": "MySQL Fundamentals – Coding Studio",
+    "subtitle": "SQL / DDL / DML",
+    "image": "assets/img/portfolio/mysql-fundamental.jpg",
+    "github": "https://github.com/ichsanx/Project-MySQL-Fundamental-Coding-Studio",
+    "link": "https://github.com/ichsanx/Project-MySQL-Fundamental-Coding-Studio",
+    "skills": ["MySQL", "Database Design", "Queries"],
+    "about": "Latihan DDL, DML, join, dan query untuk pengelolaan database terstruktur.",
+    "gallery": ["assets/img/portfolio/mysql-fundamental.jpg"]
+  },
+  {
+    "slug": "codingstudio-excel",
+    "title": "Excel Intermediate – Coding Studio",
+    "subtitle": "Excel / Pivot / Charts",
+    "image": "assets/img/portfolio/excel-intermediate.jpg",
+    "github": "https://github.com/ichsanx/Project-Excel-Intermediate",
+    "link": "https://github.com/ichsanx/Project-Excel-Intermediate",
+    "skills": ["Excel", "Formulas", "Visualization"],
+    "about": "Laporan analitik dengan formula, pivot table, dan chart untuk pengambilan keputusan.",
+    "gallery": ["assets/img/portfolio/excel-intermediate.jpg"]
   }
 ]
