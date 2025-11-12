@@ -3,23 +3,23 @@
     "slug": "webhozz-php-website",
     "title": "WebHozz – PHP Website Development Training",
     "subtitle": "PHP / MySQL / Full-stack",
-    "image": "assets/img/portfolio/business_analysis.jpg",
+    "image": "assets/img/portfolio/webhozz_dev_training.jpg",
     "github": "https://github.com/ichsanx/webhozz",
     "link": "https://github.com/ichsanx/webhozz",
     "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    "about": "Latihan membangun website dinamis berbasis PHP + MySQL: layout, CRUD, dan server-side logic. Selesai & tersertifikasi (26 Nov 2016).",
-    "gallery": ["assets/img/portfolio/business_analysis.jpg"]
+    "about": "Practice building dynamic websites based on PHP + MySQL: layout, CRUD (Create Read Update Delete), and server-side logic. Completed & certified (26 Nov 2016).",
+    "gallery": ["assets/img/portfolio/webhozz_dev_training.jpg"]
   },
   {
     "slug": "sipusta-library-system",
     "title": "SIPUSTA – Library Management Website",
     "subtitle": "Full-stack / CRUD / Reporting",
-    "image": "assets/img/portfolio/churn_dashboard.jpg",
+    "image": "assets/img/portfolio/sipusta.jpg",
     "github": "https://github.com/ichsanx/sipusta",
     "link": "https://github.com/ichsanx/sipusta",
     "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     "about": "Sistem web perpustakaan: katalog, peminjaman-pengembalian, manajemen user, dan laporan cetak.",
-    "gallery": ["assets/img/portfolio/churn_dashboard.jpg"]
+    "gallery": ["assets/img/portfolio/sipusta.jpg"]
   },
   {
     "slug": "vionet-club-website",
@@ -36,34 +36,34 @@
     "slug": "revou-portfolio-site",
     "title": "Personal Portfolio – RevoU Fundamental Course",
     "subtitle": "Front-end / Responsive",
-    "image": "assets/img/portfolio/revou-portfolio.jpg",
+    "image": "assets/img/portfolio/revou.jpg",
     "github": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
     "link": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
     "skills": ["HTML", "CSS", "JavaScript", "UI/UX"],
     "about": "Website portofolio responsif menampilkan proyek, pencapaian, dan kontak. Deploy via GitHub Pages.",
-    "gallery": ["assets/img/portfolio/revou-portfolio.jpg"]
+    "gallery": ["assets/img/portfolio/revou.jpg"]
   },
   {
     "slug": "sales-dashboard-excel",
     "title": "Sales Data Visualization – PT. Tumbuh Bersama",
     "subtitle": "Excel Dashboard / BI",
-    "image": "assets/img/portfolio/sales-excel.jpg",
+    "image": "assets/img/portfolio/excel_tumbuhbersama.jpg",
     "github": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
     "link": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
     "skills": ["Excel", "Dashboard", "Data Cleaning"],
     "about": "Dashboard interaktif memantau tren penjualan per wilayah & kategori untuk insight bisnis bulanan.",
-    "gallery": ["assets/img/portfolio/sales-excel.jpg"]
+    "gallery": ["assets/img/portfolio/excel_tumbuhbersama.jpg"]
   },
   {
     "slug": "datastudio-kpi-dashboard",
     "title": "Data Visualization with Google Data Studio",
     "subtitle": "Google Data Studio / KPI",
-    "image": "assets/img/portfolio/datastudio.jpg",
+    "image": "assets/img/portfolio/lookerstudio_tumbuhbersama.jpg",
     "github": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
     "link": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
     "skills": ["Data Studio", "Reporting", "Storytelling"],
     "about": "Membangun dashboard KPI dinamis untuk monitoring performa dan pelaporan manajemen.",
-    "gallery": ["assets/img/portfolio/datastudio.jpg"]
+    "gallery": ["assets/img/portfolio/lookerstudio_tumbuhbersama.jpg"]
   },
   {
     "slug": "tech-store-sales-eda",
@@ -102,23 +102,23 @@
     "slug": "tableau-executive-dashboard",
     "title": "Dashboard Visualization with Tableau",
     "subtitle": "Tableau / KPIs",
-    "image": "assets/img/portfolio/tableau.jpg",
+    "image": "assets/img/portfolio/tableau_tumbuhbersama.jpg",
     "github": "https://github.com/ichsanx/Visualization-with-Tableau",
     "link": "https://github.com/ichsanx/Visualization-with-Tableau",
     "skills": ["Tableau", "Data Viz", "Storytelling"],
     "about": "Dashboard eksekutif untuk memantau KPI penjualan & tren dengan filter interaktif.",
-    "gallery": ["assets/img/portfolio/tableau.jpg"]
+    "gallery": ["assets/img/portfolio/tableau_tumbuhbersama.jpg"]
   },
   {
     "slug": "codingstudio-c",
     "title": "C Programming Fundamentals – Coding Studio",
     "subtitle": "C / Algorithms",
-    "image": "assets/img/portfolio/c-fundamental.jpg",
+    "image": "assets/img/portfolio/algoritmaC.jpg",
     "github": "https://github.com/ichsanx/Algoritma-Pemograman-C",
     "link": "https://github.com/ichsanx/Algoritma-Pemograman-C",
     "skills": ["C", "Algorithm", "Problem Solving"],
     "about": "Latihan dasar algoritma & procedural programming menggunakan bahasa C.",
-    "gallery": ["assets/img/portfolio/c-fundamental.jpg"]
+    "gallery": ["assets/img/portfolio/algoritmaC.jpg"]
   },
   {
     "slug": "codingstudio-python",
