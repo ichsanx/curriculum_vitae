@@ -7,7 +7,12 @@
     "github": "https://github.com/ichsanx/webhozz",
     "skills": ["PHP Development", "PHP", "CRUD (Create Read Update Delete)", "MySQL", "HTML", "CSS", "JavaScript"],
     "about": "Learned web design and backend development at WebHozz, focusing on creating dynamic PHP-based websites. Topics covered included choosing color schemes, writing layouts, CRUD operations, and implementing server-side functionality.",
-    "gallery": ["assets/img/portfolio/webhozz_dev_training.jpg"]
+    "gallery": [
+      "assets/img/portfolio/webhozz_dev_training.jpg",
+      "assets/img/portfolio/webhozz_dev_training2.jpg",
+      "assets/img/portfolio/webhozz_dev_training3.jpg",
+      "assets/img/portfolio/webhozz_dev_training4.jpg"
+      ]
   },
   {
     "slug": "sipusta-library-system",
@@ -17,7 +22,29 @@
     "github": "https://github.com/ichsanx/sipusta",
     "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     "about": "Built a library website (SIPUSTA) featuring book catalog management, borrowing and returning systems, and user management modules. The system allows staff to manage data efficiently and generate printable transaction reports.",
-    "gallery": ["assets/img/portfolio/sipusta.jpg"]
+    "gallery": [
+      "assets/img/portfolio/sipusta.jpg",
+      "assets/img/portfolio/sipusta2.jpg",
+      "assets/img/portfolio/sipusta3.jpg",
+      "assets/img/portfolio/sipusta4.jpg",
+      "assets/img/portfolio/sipusta5.jpg",
+      "assets/img/portfolio/sipusta6.jpg",
+      "assets/img/portfolio/sipusta7.jpg",
+      "assets/img/portfolio/sipusta8.jpg",
+      "assets/img/portfolio/sipusta9.jpg",
+      "assets/img/portfolio/sipusta10.jpg",
+      "assets/img/portfolio/sipusta11.jpg",
+      "assets/img/portfolio/sipusta12.jpg",
+      "assets/img/portfolio/sipusta13.jpg",
+      "assets/img/portfolio/sipusta14.jpg",
+      "assets/img/portfolio/sipusta15.jpg",
+      "assets/img/portfolio/sipusta16.jpg",
+      "assets/img/portfolio/sipusta17.jpg",
+      "assets/img/portfolio/sipusta18.jpg",
+      "assets/img/portfolio/sipusta19.jpg",
+      "assets/img/portfolio/sipusta20.jpg",
+      "assets/img/portfolio/sipusta21.jpg"
+    ]
   },
   {
     "slug": "vionet-club-website",
