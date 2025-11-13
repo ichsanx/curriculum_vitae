@@ -1432,3 +1432,10 @@ font icon samping judul
   border-color: #02102a; /* Warna border saat hover */
   transform: scale(1.05); /* Efek zoom ringan saat hover */
 }
+
+
+#pm-hero img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

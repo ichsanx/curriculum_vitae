@@ -305,26 +305,35 @@
     const bsModal = modalEl ? new bootstrap.Modal(modalEl) : null;
 
     async function openProject(slug) {
-      if (!bsModal) return;
+    if (!bsModal) return;
 
-      const item = portfolioData.find(x => x.slug === slug);
-      if (!item) return;
+    const item = portfolioData.find(x => x.slug === slug);
+    if (!item) return;
 
-      // isi konten
-      document.getElementById('pm-title').textContent = item.title;
-      document.getElementById('pm-subtitle').textContent = item.subtitle ?? '';
-      const heroSrc = (item.gallery && item.gallery[0]) || item.image;
-      document.getElementById('pm-hero').innerHTML = heroSrc ? `<img src="${heroSrc}" alt="${item.title}" class="img-fluid">` : '';
-      document.getElementById('pm-skills').innerHTML = (item.skills || []).map(s=>`<span class="tag">${s}</span>`).join('');
-      const links = [];
-      if (item.link)   links.push(`<a class="btn btn-outline-primary btn-sm" href="${item.link}" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i> Link</a>`);
-      if (item.github) links.push(`<a class="btn btn-outline-dark btn-sm" href="${item.github}" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>`);
-      document.getElementById('pm-links').innerHTML = links.join(' ');
-      document.getElementById('pm-about').textContent = item.about ?? '';
+    // Set title, subtitle, and skills
+    document.getElementById('pm-title').textContent = item.title;
+    document.getElementById('pm-subtitle').textContent = item.subtitle ?? '';
+    document.getElementById('pm-skills').innerHTML = (item.skills || []).map(s => `<span class="tag">${s}</span>`).join('');
 
-      // tampilkan
-      bsModal.show();
+    // Handle gallery images
+    document.getElementById('pm-hero').innerHTML = item.gallery && item.gallery.length
+        ? item.gallery.map(src => `<img src="${src}" alt="${item.title}" class="img-fluid">`).join('')
+        : `<img src="${item.image}" alt="${item.title}" class="img-fluid">`;
+
+    // Add the links (if they exist)
+    const links = [];
+    if (item.link) links.push(`<a class="btn btn-outline-primary btn-sm" href="${item.link}" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i> Link</a>`);
+    if (item.github) links.push(`<a class="btn btn-outline-dark btn-sm" href="${item.github}" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>`);
+    
+    document.getElementById('pm-links').innerHTML = links.join(' ');
+
+    // Set the about text
+    document.getElementById('pm-about').textContent = item.about ?? '';
+
+    // Show the modal
+    bsModal.show();
     }
+
 
     // klik tombol (event delegation)
     grid.addEventListener('click', (e) => {
@@ -355,4 +364,8 @@
     });
   })();
 
+
+
+
+  
 })();

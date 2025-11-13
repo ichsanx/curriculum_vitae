@@ -28,7 +28,25 @@
     "link": "vionet.ct.ws",
     "skills": ["PHP", "MySQL", "Bootstrap", "Auth", "CRUD"],
     "about": "Developed a full-stack web application that displays club information, events, and news. Integrated a secure admin dashboard for financial management (cash flow tracking/KAS).",
-    "gallery": ["assets/img/portfolio/vionet.jpg"]
+    "gallery": [
+    "assets/img/portfolio/vionet.jpg",
+    "assets/img/portfolio/kas-vionet1.jpg",
+    "assets/img/portfolio/kas-vionet2.jpg",
+    "assets/img/portfolio/kas-vionet3.jpg",
+    "assets/img/portfolio/kas-vionet4.jpg",
+    "assets/img/portfolio/kas-vionet5.jpg",
+    "assets/img/portfolio/kas-vionet6.jpg",
+    "assets/img/portfolio/kas-vionet7.jpg",
+    "assets/img/portfolio/kas-vionet8.jpg",
+    "assets/img/portfolio/kas-vionet9.jpg",
+    "assets/img/portfolio/kas-vionet10.jpg",
+    "assets/img/portfolio/kas-vionet11.jpg",
+    "assets/img/portfolio/kas-vionet12.jpg",
+    "assets/img/portfolio/kas-vionet13.jpg",
+    "assets/img/portfolio/kas-vionet14.jpg",
+    "assets/img/portfolio/kas-vionet15.jpg",
+    "assets/img/portfolio/kas-vionet16.jpg"  
+    ]
   },
   {
     "slug": "revou-portfolio-site",
