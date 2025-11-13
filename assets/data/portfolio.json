@@ -5,7 +5,6 @@
     "subtitle": "PHP / MySQL / Full-stack",
     "image": "assets/img/portfolio/webhozz_dev_training.jpg",
     "github": "https://github.com/ichsanx/webhozz",
-    "link": "https://github.com/ichsanx/webhozz",
     "skills": ["PHP Development", "PHP", "CRUD (Create Read Update Delete)", "MySQL", "HTML", "CSS", "JavaScript"],
     "about": "Learned web design and backend development at WebHozz, focusing on creating dynamic PHP-based websites. Topics covered included choosing color schemes, writing layouts, CRUD operations, and implementing server-side functionality.",
     "gallery": ["assets/img/portfolio/webhozz_dev_training.jpg"]
@@ -16,7 +15,6 @@
     "subtitle": "Full-stack / CRUD / Reporting",
     "image": "assets/img/portfolio/sipusta.jpg",
     "github": "https://github.com/ichsanx/sipusta",
-    "link": "https://github.com/ichsanx/sipusta",
     "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     "about": "Built a library website (SIPUSTA) featuring book catalog management, borrowing and returning systems, and user management modules. The system allows staff to manage data efficiently and generate printable transaction reports.",
     "gallery": ["assets/img/portfolio/sipusta.jpg"]
@@ -27,7 +25,7 @@
     "subtitle": "Full-stack / Dashboard / Auth",
     "image": "assets/img/portfolio/vionet.jpg",
     "github": "https://github.com/ichsanx/vionet",
-    "link": "https://github.com/ichsanx/vionet",
+    "link": "vionet.ct.ws",
     "skills": ["PHP", "MySQL", "Bootstrap", "Auth", "CRUD"],
     "about": "Developed a full-stack web application that displays club information, events, and news. Integrated a secure admin dashboard for financial management (cash flow tracking/KAS).",
     "gallery": ["assets/img/portfolio/vionet.jpg"]
@@ -38,7 +36,6 @@
     "subtitle": "Front-end / Responsive",
     "image": "assets/img/portfolio/revou.jpg",
     "github": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
-    "link": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
     "skills": ["HTML", "CSS", "JavaScript", "UI/UX"],
     "about": "Designed and built a personal portfolio website using HTML, CSS, and JavaScript, showcasing projects, achievements, and contact information.",
     "gallery": ["assets/img/portfolio/revou.jpg"]
@@ -49,7 +46,7 @@
     "subtitle": "Excel Dashboard / BI",
     "image": "assets/img/portfolio/excel_tumbuhbersama.jpg",
     "github": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
-    "link": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
+    "link": "https://docs.google.com/spreadsheets/d/11yHluxsK1Ylk0ebV9RYhwNbFQajbVjYZ/edit?pli=1&gid=1942725943#gid=1942725943",
     "skills": ["Excel", "Dashboard", "Data Cleaning"],
     "about": "Created interactive dashboards tracking sales trends and performance by region and product category.",
     "gallery": ["assets/img/portfolio/excel_tumbuhbersama.jpg"]
@@ -60,8 +57,8 @@
     "subtitle": "Google Data Studio / KPI",
     "image": "assets/img/portfolio/lookerstudio_tumbuhbersama.jpg",
     "github": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
-    "link": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
-    "skills": ["Data Studio", "Reporting", "Storytelling"],
+    "link": "https://lookerstudio.google.com/u/0/reporting/2d71e616-64e9-43d2-a7ad-f4723ca95308/page/Vb3JF",
+    "skills": ["Data Studio", "Reporting", "Storytelling", "lookerstudio"],
     "about": "Developed dynamic and interactive dashboards for performance monitoring.",
     "gallery": ["assets/img/portfolio/lookerstudio_tumbuhbersama.jpg"]
   },
@@ -69,12 +66,11 @@
     "slug": "tech-store-sales-eda",
     "title": "Tech Store Sales Analysis",
     "subtitle": "Python EDA / Visualization",
-    "image": "assets/img/portfolio/tech-store-eda.jpg",
-    "github": "https://github.com/ichsanx/Task-Intermediate-Level-Certification-Ichsan_batch34",
-    "link": "https://github.com/ichsanx/Task-Intermediate-Level-Certification-Ichsan_batch34",
+    "image": "assets/img/portfolio/eda-python.jpg",
+    "github": "https://github.com/ichsanx/Task-Intermediate-Level-Certification-Ichsan_batch34/blob/main/Growia%20Intermediate%20Ichsan.ipynb",
     "skills": ["Python", "Pandas", "Matplotlib", "EDA"],
-    "about": "Conducted EDA using Python to identify seasonal trends and top-performing products.",
-    "gallery": ["assets/img/portfolio/tech-store-eda.jpg"]
+    "about": "Conducted EDA (Exploratory Data Analysis) using Python to identify seasonal trends and top-performing products. This included data cleaning using Python to detect data anomalies.",
+    "gallery": ["assets/img/portfolio/eda-python.jpg"]
   },
   {
     "slug": "bigquery-sql-exploration",
@@ -82,7 +78,6 @@
     "subtitle": "SQL / Aggregation / Joins",
     "image": "assets/img/portfolio/bigquery-sql.jpg",
     "github": "https://github.com/ichsanx/SQL-with-Google-BigQuery",
-    "link": "https://github.com/ichsanx/SQL-with-Google-BigQuery",
     "skills": ["SQL", "BigQuery", "Aggregation"],
     "about": "Performed SQL operations such as joins, aggregations, and temporary tables to extract valuable insights.",
     "gallery": ["assets/img/portfolio/bigquery-sql.jpg"]
