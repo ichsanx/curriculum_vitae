@@ -1,11 +1,3 @@
-/* Kalau mau jarak antar kartu lebih padat dan judul/subjudul rata kiri seperti contohmu, tambahkan CSS ini ke */
-/* padatkan grid portfolio */
-#portfolio-grid .portfolio-item{ padding-bottom: 1rem; }
-#portfolio-grid .portfolio-info h4{ font-weight: 600; margin: .5rem 0 .25rem; }
-#portfolio-grid .portfolio-info p{ margin-bottom: .25rem; color:#6c757d; }
-#portfolio-grid .portfolio-wrap img{ border-radius: 8px; }
-
-
 /**
 * Template Name: iPortfolio
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -1328,6 +1320,7 @@ font icon samping judul
   /* Menambahkan padding atau margin jika dibutuhkan */
 }
 
+
 /* Tambahkan styling tambahan sesuai kebutuhan */
 
 
@@ -1342,5 +1335,100 @@ font icon samping judul
 }
 
 
+/* Kalau mau jarak antar kartu lebih padat dan judul/subjudul rata kiri seperti contohmu, tambahkan CSS ini ke
+/* padatkan grid portfolio */
+#portfolio-grid .portfolio-item{ padding-bottom: 1rem; }
+#portfolio-grid .portfolio-info h4{ font-weight: 600; margin: .5rem 0 .25rem; }
+#portfolio-grid .portfolio-info p{ margin-bottom: .25rem; color:#6c757d; }
+#portfolio-grid .portfolio-wrap img{ border-radius: 8px; } */
 
-/* ========================================================================================================================== */
+
+
+
+
+/* ===================== Portfolio Section ===================== */
+#portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Atur grid responsif */
+  gap: 20px; /* Jarak antar elemen */
+  padding: 20px;
+  justify-items: center; /* Menyelaraskan item ke tengah */
+}
+
+/* ===================== Gambar Portfolio ===================== */
+#portfolio-grid .portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Menyelaraskan gambar dan teks */
+  justify-content: space-between; /* Memastikan elemen tidak saling bertumpuk */
+  background-color: var(--surface-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio-grid .portfolio-item .portfolio-wrap img {
+  width: 100%; /* Gambar mengisi seluruh lebar */
+  height: 200px; /* Set tinggi seragam untuk gambar */
+  object-fit: cover; /* Menjaga proporsi gambar */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* ===================== Hover Effect ===================== */
+#portfolio-grid .portfolio-item:hover .portfolio-wrap img {
+  transform: scale(1.05); /* Efek zoom */
+}
+
+/* ===================== Portfolio Item Tekstual ===================== */
+#portfolio-grid .portfolio-info h4,
+#portfolio-grid .portfolio-info p {
+  margin: 10px 0; /* Menjaga jarak antar elemen teks */
+  font-size: 16px;
+  text-align: center;
+}
+
+/* ===================== Portfolio Button ===================== */
+#portfolio-grid .portfolio-info a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#portfolio-grid .portfolio-info a:hover {
+  background-color: darken(var(--accent-color), 10%);
+}
+
+/* ===================== Responsif untuk Layar Kecil ===================== */
+@media (max-width: 768px) {
+  #portfolio-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Menyesuaikan grid di perangkat kecil */
+  }
+  #portfolio-grid .portfolio-item .portfolio-wrap img {
+    height: 220px; /* Menurunkan tinggi gambar untuk perangkat kecil */
+  }
+}
+
+
+
+/* Menetapkan warna latar belakang biru tua pada tombol */
+#portfolio-grid .portfolio-info a {
+  background-color: #032146; /* Warna biru tua */
+  color: white;
+  border: 2px solid #032146; /* Menambahkan border dengan warna yang sama */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Mengubah warna latar belakang tombol saat hover */
+#portfolio-grid .portfolio-info a:hover {
+  background-color: #02102a; /* Sedikit lebih gelap saat hover */
+  color: white;
+  border-color: #02102a; /* Warna border saat hover */
+  transform: scale(1.05); /* Efek zoom ringan saat hover */
+}
