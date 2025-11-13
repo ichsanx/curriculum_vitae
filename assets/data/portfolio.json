@@ -87,10 +87,10 @@
     "title": "Data Cleaning & Analysis in Python (Growia)",
     "subtitle": "Python / EDA / Preprocessing",
     "image": "assets/img/portfolio/growia-python.jpg",
-    "github": "https://github.com/ichsanx/File-Notebook-Python-Growia",
+    "github": "https://github.com/ichsanx/File-Notebook-Python-Growia/blob/main/Tugas%20Analysis%20%26%20Visualization%20With%20Python.ipynb",
     "link": "https://github.com/ichsanx/File-Notebook-Python-Growia",
     "skills": ["Python", "Pandas", "Matplotlib", "EDA"],
-    "about": "Applied Python libraries for preprocessing and EDA to discover trends and relationships.",
+    "about": "Applied Python libraries for preprocessing and EDA (Exploratory Data Analysis) to discover trends and relationships.",
     "gallery": ["assets/img/portfolio/growia-python.jpg"]
   },
   {
@@ -99,7 +99,7 @@
     "subtitle": "Tableau / KPIs",
     "image": "assets/img/portfolio/tableau_tumbuhbersama.jpg",
     "github": "https://github.com/ichsanx/Visualization-with-Tableau",
-    "link": "https://github.com/ichsanx/Visualization-with-Tableau",
+    "link": "https://public.tableau.com/app/profile/ichsan.saputra/viz/DashboardEmployeePTICHSANSEJAHTERA/DASHBOARDEMPLOYEEPT_ICHSANSEJAHTERA",
     "skills": ["Tableau", "Data Viz", "Storytelling"],
     "about": "Built executive dashboards for sales performance monitoring.",
     "gallery": ["assets/img/portfolio/tableau_tumbuhbersama.jpg"]
@@ -110,7 +110,7 @@
     "subtitle": "C / Algorithms",
     "image": "assets/img/portfolio/algoritmaC.jpg",
     "github": "https://github.com/ichsanx/Algoritma-Pemograman-C",
-    "link": "https://github.com/ichsanx/Algoritma-Pemograman-C",
+    "link": "https://github.com/ichsanx/Algoritma-Pemograman-C/raw/refs/heads/main/Project%20Pemograman%20Game%20by%20C/Project.exe",
     "skills": ["C", "Algorithm", "Problem Solving"],
     "about": "Built a simple interactive program demonstrating control flow and algorithm logic.",
     "gallery": ["assets/img/portfolio/algoritmaC.jpg"]
@@ -121,7 +121,7 @@
     "subtitle": "Python Basics / OOP",
     "image": "assets/img/portfolio/python-codingstudio.jpg",
     "github": "https://github.com/ichsanx/Python-Project-Coding-Studio",
-    "link": "https://github.com/ichsanx/Python-Project-Coding-Studio",
+    "link": "https://drive.google.com/drive/folders/1aivAQuIpQprreZIgvJvg9lXlU1vHqWLm?usp=sharing",
     "skills": ["Python", "Functions", "OOP"],
     "about": "Created multiple Python scripts exploring loops, functions, conditionals, and classes.",
     "gallery": ["assets/img/portfolio/python-codingstudio.jpg"]
@@ -132,9 +132,9 @@
     "subtitle": "SQL / DDL / DML",
     "image": "assets/img/portfolio/mysql-fundamental.jpg",
     "github": "https://github.com/ichsanx/Project-MySQL-Fundamental-Coding-Studio",
-    "link": "https://github.com/ichsanx/Project-MySQL-Fundamental-Coding-Studio",
+    "link": "https://drive.google.com/drive/u/3/folders/1zWyE7y00pgJ9DLYGsFE_kkqYk1D0-wA2",
     "skills": ["MySQL", "Database Design", "Queries"],
-    "about": "Practiced DDL, DML, joins, and data queries to manage structured databases.",
+    "about": "Practiced DDL (Data Definition Language), DML (Data Manipulation Language), joins, and data queries to manage structured databases.",
     "gallery": ["assets/img/portfolio/mysql-fundamental.jpg"]
   },
   {
@@ -143,7 +143,7 @@
     "subtitle": "Excel / Pivot / Charts",
     "image": "assets/img/portfolio/excel-intermediate.jpg",
     "github": "https://github.com/ichsanx/Project-Excel-Intermediate",
-    "link": "https://github.com/ichsanx/Project-Excel-Intermediate",
+    "link": "https://drive.google.com/drive/folders/1xwYcoICDpUrcOfDFnDlu-lcJJ_Q718wh?usp=sharing",
     "skills": ["Excel", "Formulas", "Visualization"],
     "about": "Created data reports using formulas, pivot tables, and charts for data-driven decisions.",
     "gallery": ["assets/img/portfolio/excel-intermediate.jpg"]
