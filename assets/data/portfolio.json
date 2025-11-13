@@ -6,8 +6,8 @@
     "image": "assets/img/portfolio/webhozz_dev_training.jpg",
     "github": "https://github.com/ichsanx/webhozz",
     "link": "https://github.com/ichsanx/webhozz",
-    "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    "about": "Practice building dynamic websites based on PHP + MySQL: layout, CRUD (Create Read Update Delete), and server-side logic. Completed & certified (26 Nov 2016).",
+    "skills": ["PHP Development", "PHP", "CRUD (Create Read Update Delete)", "MySQL", "HTML", "CSS", "JavaScript"],
+    "about": "Learned web design and backend development at WebHozz, focusing on creating dynamic PHP-based websites. Topics covered included choosing color schemes, writing layouts, CRUD operations, and implementing server-side functionality.",
     "gallery": ["assets/img/portfolio/webhozz_dev_training.jpg"]
   },
   {
@@ -18,7 +18,7 @@
     "github": "https://github.com/ichsanx/sipusta",
     "link": "https://github.com/ichsanx/sipusta",
     "skills": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    "about": "Sistem web perpustakaan: katalog, peminjaman-pengembalian, manajemen user, dan laporan cetak.",
+    "about": "Built a library website (SIPUSTA) featuring book catalog management, borrowing and returning systems, and user management modules. The system allows staff to manage data efficiently and generate printable transaction reports.",
     "gallery": ["assets/img/portfolio/sipusta.jpg"]
   },
   {
@@ -29,7 +29,7 @@
     "github": "https://github.com/ichsanx/vionet",
     "link": "https://github.com/ichsanx/vionet",
     "skills": ["PHP", "MySQL", "Bootstrap", "Auth", "CRUD"],
-    "about": "Website komunitas Vision Owner Network + admin dashboard untuk manajemen kas/keuangan dan konten acara/berita.",
+    "about": "Developed a full-stack web application that displays club information, events, and news. Integrated a secure admin dashboard for financial management (cash flow tracking/KAS).",
     "gallery": ["assets/img/portfolio/vionet.jpg"]
   },
   {
@@ -40,7 +40,7 @@
     "github": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
     "link": "https://github.com/revou-fundamental-course/17-feb-25-ichsanx",
     "skills": ["HTML", "CSS", "JavaScript", "UI/UX"],
-    "about": "Website portofolio responsif menampilkan proyek, pencapaian, dan kontak. Deploy via GitHub Pages.",
+    "about": "Designed and built a personal portfolio website using HTML, CSS, and JavaScript, showcasing projects, achievements, and contact information.",
     "gallery": ["assets/img/portfolio/revou.jpg"]
   },
   {
@@ -51,7 +51,7 @@
     "github": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
     "link": "https://github.com/ichsanx/INSIGHT-DATA-SALES-PT.-TUMBUH-BERSAMA",
     "skills": ["Excel", "Dashboard", "Data Cleaning"],
-    "about": "Dashboard interaktif memantau tren penjualan per wilayah & kategori untuk insight bisnis bulanan.",
+    "about": "Created interactive dashboards tracking sales trends and performance by region and product category.",
     "gallery": ["assets/img/portfolio/excel_tumbuhbersama.jpg"]
   },
   {
@@ -62,7 +62,7 @@
     "github": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
     "link": "https://github.com/ichsanx/Visualisasi-data-dengan-Google-Data-Studio",
     "skills": ["Data Studio", "Reporting", "Storytelling"],
-    "about": "Membangun dashboard KPI dinamis untuk monitoring performa dan pelaporan manajemen.",
+    "about": "Developed dynamic and interactive dashboards for performance monitoring.",
     "gallery": ["assets/img/portfolio/lookerstudio_tumbuhbersama.jpg"]
   },
   {
@@ -73,7 +73,7 @@
     "github": "https://github.com/ichsanx/Task-Intermediate-Level-Certification-Ichsan_batch34",
     "link": "https://github.com/ichsanx/Task-Intermediate-Level-Certification-Ichsan_batch34",
     "skills": ["Python", "Pandas", "Matplotlib", "EDA"],
-    "about": "Eksplorasi data penjualan: musiman, produk terlaris, dan pola performa untuk rekomendasi taktis.",
+    "about": "Conducted EDA using Python to identify seasonal trends and top-performing products.",
     "gallery": ["assets/img/portfolio/tech-store-eda.jpg"]
   },
   {
@@ -84,7 +84,7 @@
     "github": "https://github.com/ichsanx/SQL-with-Google-BigQuery",
     "link": "https://github.com/ichsanx/SQL-with-Google-BigQuery",
     "skills": ["SQL", "BigQuery", "Aggregation"],
-    "about": "Eksplorasi data skala besar dengan join, agregasi, dan temporary tables untuk mendapatkan insight.",
+    "about": "Performed SQL operations such as joins, aggregations, and temporary tables to extract valuable insights.",
     "gallery": ["assets/img/portfolio/bigquery-sql.jpg"]
   },
   {
@@ -95,7 +95,7 @@
     "github": "https://github.com/ichsanx/File-Notebook-Python-Growia",
     "link": "https://github.com/ichsanx/File-Notebook-Python-Growia",
     "skills": ["Python", "Pandas", "Matplotlib", "EDA"],
-    "about": "Pembersihan, transformasi, dan analisis data untuk menemukan pola dan hubungan yang bermakna.",
+    "about": "Applied Python libraries for preprocessing and EDA to discover trends and relationships.",
     "gallery": ["assets/img/portfolio/growia-python.jpg"]
   },
   {
@@ -106,7 +106,7 @@
     "github": "https://github.com/ichsanx/Visualization-with-Tableau",
     "link": "https://github.com/ichsanx/Visualization-with-Tableau",
     "skills": ["Tableau", "Data Viz", "Storytelling"],
-    "about": "Dashboard eksekutif untuk memantau KPI penjualan & tren dengan filter interaktif.",
+    "about": "Built executive dashboards for sales performance monitoring.",
     "gallery": ["assets/img/portfolio/tableau_tumbuhbersama.jpg"]
   },
   {
@@ -117,7 +117,7 @@
     "github": "https://github.com/ichsanx/Algoritma-Pemograman-C",
     "link": "https://github.com/ichsanx/Algoritma-Pemograman-C",
     "skills": ["C", "Algorithm", "Problem Solving"],
-    "about": "Latihan dasar algoritma & procedural programming menggunakan bahasa C.",
+    "about": "Built a simple interactive program demonstrating control flow and algorithm logic.",
     "gallery": ["assets/img/portfolio/algoritmaC.jpg"]
   },
   {
@@ -128,7 +128,7 @@
     "github": "https://github.com/ichsanx/Python-Project-Coding-Studio",
     "link": "https://github.com/ichsanx/Python-Project-Coding-Studio",
     "skills": ["Python", "Functions", "OOP"],
-    "about": "Kumpulan script latihan: loop, fungsi, kondisi, dan kelas.",
+    "about": "Created multiple Python scripts exploring loops, functions, conditionals, and classes.",
     "gallery": ["assets/img/portfolio/python-codingstudio.jpg"]
   },
   {
@@ -139,7 +139,7 @@
     "github": "https://github.com/ichsanx/Project-MySQL-Fundamental-Coding-Studio",
     "link": "https://github.com/ichsanx/Project-MySQL-Fundamental-Coding-Studio",
     "skills": ["MySQL", "Database Design", "Queries"],
-    "about": "Latihan DDL, DML, join, dan query untuk pengelolaan database terstruktur.",
+    "about": "Practiced DDL, DML, joins, and data queries to manage structured databases.",
     "gallery": ["assets/img/portfolio/mysql-fundamental.jpg"]
   },
   {
@@ -150,7 +150,7 @@
     "github": "https://github.com/ichsanx/Project-Excel-Intermediate",
     "link": "https://github.com/ichsanx/Project-Excel-Intermediate",
     "skills": ["Excel", "Formulas", "Visualization"],
-    "about": "Laporan analitik dengan formula, pivot table, dan chart untuk pengambilan keputusan.",
+    "about": "Created data reports using formulas, pivot tables, and charts for data-driven decisions.",
     "gallery": ["assets/img/portfolio/excel-intermediate.jpg"]
   }
 ]
