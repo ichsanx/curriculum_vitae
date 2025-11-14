@@ -324,6 +324,11 @@
       // Gunakan innerHTML untuk menampilkan konten `about` dengan link
       document.getElementById('pm-about').innerHTML = item.about ?? '';  // Ini yang penting!
 
+      // Handle gallery images
+      document.getElementById('pm-hero').innerHTML = item.gallery && item.gallery.length
+        ? item.gallery.map(src => `<img src="${src}" alt="${item.title}" class="img-fluid">`).join('')
+        : `<img src="${item.image}" alt="${item.title}" class="img-fluid">`;
+
       // Tampilkan modal
       bsModal.show();
     }
