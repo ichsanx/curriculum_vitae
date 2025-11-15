@@ -1,5 +1,30 @@
 [
   {
+    "slug": "vionet-club-website",
+    "title": "VIONET – Club Website & Dashboard KAS",
+    "subtitle": "Full-stack / Dashboard / Auth",
+    "image": "assets/img/portfolio/vionet.jpg",
+    "github": "https://github.com/ichsanx/vionet",
+    "link": "https://vionet.ct.ws",
+    "skills": ["PHP", "MySQL", "Bootstrap", "Auth", "CRUD"],
+    "about": "Developed a full-stack web application that displays club information, events, and news. Integrated a secure admin dashboard for financial management (cash flow tracking/KAS).",
+    "gallery": [
+    "assets/img/portfolio/kas-vionet16.jpg"  
+    ]
+  },  
+  {
+    "slug": "smarty-knowledge-website",
+    "title": "Smarty – Information & Knowledge Website",
+    "subtitle": "Dashboard / Auth",
+    "image": "assets/img/portfolio/smarty.jpg",
+    "github": "https://github.com/ichsanx/smarty",
+    "skills": ["PHP", "CSS", "Bootstrap", "JavaScript", "CRUD"],
+    "about": "Smarty 147 is an information-based website about all Telkom products for 147 agents to learn about.",
+    "gallery": [
+    "assets/img/portfolio/smarty.jpg"  
+    ]
+  },
+  {
     "slug": "webhozz-php-website",
     "title": "WebHozz – PHP Website Development Training",
     "subtitle": "PHP / MySQL / Full-stack",
