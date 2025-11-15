@@ -5,7 +5,7 @@
     "subtitle": "Proxmox, TrueNAS, and Tailscale Server Setup Portfolio",
     "image": "assets/img/portfolio/proxmox2.jpg",
     "skills": ["Proxmox", "TrueNAS", "TailScale", "HomeLab", "Linux"],
-    "about": "In this project, I built a secure and efficient server using Proxmox Virtual Environment for virtualization, TrueNAS for data storage, and Tailscale as a private network (VPN) to ensure the server is not publicly accessible. Proxmox provides a platform to manage virtual machines and containers, while TrueNAS offers reliable storage solutions with ZFS features to maintain data integrity. Tailscale secures access to the server, ensuring that only authorized devices can connect.<br>This setup is designed to deliver high performance, guaranteed security, and scalability for virtualization and data storage needs.",
+    "about": "In this project, I built a secure and efficient server using Proxmox Virtual Environment for virtualization, TrueNAS for data storage, and Tailscale as a private network (VPN) to ensure the server is not publicly accessible. Proxmox provides a platform to manage virtual machines and containers, while TrueNAS offers reliable storage solutions with ZFS features to maintain data integrity. Tailscale secures access to the server, ensuring that only authorized devices can connect.<br><br>This setup is designed to deliver high performance, guaranteed security, and scalability for virtualization and data storage needs.",
     "gallery": [
     "assets/img/portfolio/proxmox.jpg",
     "assets/img/portfolio/proxmox1.jpg",
