@@ -1,23 +1,23 @@
 [
   {
-    "slug": "DMS-Backend-NestJS-PostgreSQL",
-    "title": "Document Management System (DMS) Backend",
-    "subtitle": "NestJS, Prisma, PostgreSQL, JWT, RBAC, Approval Workflow",
-    "image": "assets/img/portfolio/dms-cover.jpg",
-    "github": "https://github.com/ichsanx/dms-backend-cybermax-v6",
-    "skills": ["NestJS", "TypeScript", "Prisma", "PostgreSQL", "JWT", "RBAC", "Swagger"],
-    "about": "In this project, I built a Document Management System (DMS) backend using NestJS, TypeScript, Prisma, and PostgreSQL. The system supports document upload, approval-based replace and delete requests, user notifications, JWT authentication, and role-based access control. Sensitive actions such as replace and delete are processed through an approval workflow to ensure security, traceability, and better governance. I also implemented transactional integrity so document updates, permission requests, and notifications are committed atomically.",
-    "gallery": [
-      "assets/img/portfolio/DMS-Backend-1.png",
-      "assets/img/portfolio/DMS-Backend-2.png",
-      "assets/img/portfolio/DMS-Backend-3.png",
-      "assets/img/portfolio/DMS-Backend-4.png",
-      "assets/img/portfolio/DMS-Backend-5.png",
-      "assets/img/portfolio/DMS-Backend-6.png",
-      "assets/img/portfolio/DMS-Backend-7.png",
-      "assets/img/portfolio/DMS-Backend-8.png",
-      "assets/img/portfolio/DMS-Backend-9.png",
-      "assets/img/portfolio/DMS-Backend-10.png"
+  "slug": "DMS-Backend-NestJS-PostgreSQL",
+  "title": "Document Management System (DMS) Backend",
+  "subtitle": "NestJS, Prisma, PostgreSQL, JWT, RBAC, Approval Workflow",
+  "image": "assets/img/portfolio/DMS-Backend-1.png",
+  "github": "https://github.com/ichsanx/dms-backend-cybermax-v6",
+  "skills": ["NestJS", "TypeScript", "Prisma", "PostgreSQL", "JWT", "RBAC", "Swagger"],
+  "about": "In this project, I built a Document Management System (DMS) backend using NestJS, TypeScript, Prisma, and PostgreSQL. The system supports document upload, approval-based replace and delete requests, user notifications, JWT authentication, and role-based access control.",
+  "gallery": [
+    "assets/img/portfolio/DMS-Backend-1.png",
+    "assets/img/portfolio/DMS-Backend-2.png",
+    "assets/img/portfolio/DMS-Backend-3.png",
+    "assets/img/portfolio/DMS-Backend-4.png",
+    "assets/img/portfolio/DMS-Backend-5.png",
+    "assets/img/portfolio/DMS-Backend-6.png",
+    "assets/img/portfolio/DMS-Backend-7.png",
+    "assets/img/portfolio/DMS-Backend-8.png",
+    "assets/img/portfolio/DMS-Backend-9.png",
+    "assets/img/portfolio/DMS-Backend-10.png"
     ]
   },  
   {
