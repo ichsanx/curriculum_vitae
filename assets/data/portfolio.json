@@ -1,13 +1,36 @@
 [
   {
-  "slug": "DMS-Backend-NestJS-PostgreSQL",
-  "title": "Document Management System (DMS) Backend",
-  "subtitle": "NestJS, Prisma, PostgreSQL, JWT, RBAC, Approval Workflow",
-  "image": "assets/img/portfolio/DMS-Backend-1.png",
-  "github": "https://github.com/ichsanx/dms-backend-cybermax-v6",
-  "skills": ["NestJS", "TypeScript", "Prisma", "PostgreSQL", "JWT", "RBAC", "Swagger"],
-  "about": "In this project, I built a Document Management System (DMS) backend using NestJS, TypeScript, Prisma, and PostgreSQL. The system supports document upload, approval-based replace and delete requests, user notifications, JWT authentication, and role-based access control.",
-  "gallery": [
+    "slug": "dms-fullstack-cybermax-v6",
+    "title": "DMS (Document Management System) Fullstack",
+    "subtitle": "Next.js, NestJS, Prisma, PostgreSQL, JWT, Approval Workflow",
+    "image": "assets/img/portfolio/DMS-Frontend-1.png",
+    "github": "https://github.com/ichsanx/dms-fullstack-cybermax-v6",
+    "skills": ["Next.js", "NestJS", "TypeScript", "Prisma", "PostgreSQL", "JWT", "RBAC", "Swagger"],
+    "about": "In this project, I built a fullstack Document Management System (DMS) consisting of a Next.js frontend and a NestJS backend. The application includes login, dashboard, document upload and listing, delete/replace requests, admin approval queue, notifications, and secure file download. The backend uses JWT authentication, role-based access control, approval workflow, and Prisma with PostgreSQL. Documents can only be changed through an admin approval process to ensure security, auditability, and transactional consistency.",
+    "gallery": [
+    "assets/img/portfolio/DMS-Frontend-1.png",
+    "assets/img/portfolio/DMS-Frontend-2.png",
+    "assets/img/portfolio/DMS-Frontend-3.png",
+    "assets/img/portfolio/DMS-Frontend-4.png",
+    "assets/img/portfolio/DMS-Frontend-5.png",
+    "assets/img/portfolio/DMS-Frontend-6.png",
+    "assets/img/portfolio/DMS-Frontend-7.png",
+    "assets/img/portfolio/DMS-Frontend-8.png",
+    "assets/img/portfolio/DMS-Frontend-9.png",
+    "assets/img/portfolio/DMS-Frontend-10.png",
+    "assets/img/portfolio/DMS-Frontend-11.png",
+    "assets/img/portfolio/DMS-Frontend-12.png"
+    ]
+  },
+  {
+    "slug": "DMS-Backend-NestJS-PostgreSQL",
+    "title": "Document Management System (DMS) Backend",
+    "subtitle": "NestJS, Prisma, PostgreSQL, JWT, RBAC, Approval Workflow",
+    "image": "assets/img/portfolio/DMS-Backend-1.png",
+    "github": "https://github.com/ichsanx/dms-backend-cybermax-v6",
+    "skills": ["NestJS", "TypeScript", "Prisma", "PostgreSQL", "JWT", "RBAC", "Swagger"],
+    "about": "In this project, I built a Document Management System (DMS) backend using NestJS, TypeScript, Prisma, and PostgreSQL. The system supports document upload, approval-based replace and delete requests, user notifications, JWT authentication, and role-based access control.",
+    "gallery": [
     "assets/img/portfolio/DMS-Backend-1.png",
     "assets/img/portfolio/DMS-Backend-2.png",
     "assets/img/portfolio/DMS-Backend-3.png",
@@ -19,7 +42,7 @@
     "assets/img/portfolio/DMS-Backend-9.png",
     "assets/img/portfolio/DMS-Backend-10.png"
     ]
-  },  
+  },
   {
     "slug": "Linux-Proxox-TrueNas-TailScale-HomeLab",
     "title": "Setup server with Proxmox, TrueNAS, and TailScale",
