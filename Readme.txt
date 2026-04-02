@@ -7,4 +7,3 @@ License: https://bootstrapmade.com/license/
 
 
 Please Check This Out: https://ichsanx.github.io/curriculum_vitae/
-or [**Clik Here**](https://ichsanx.github.io/curriculum_vitae)
