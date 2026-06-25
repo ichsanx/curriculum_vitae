@@ -1494,3 +1494,77 @@ font icon samping judul
 }
 
 .skills-extension{margin-top:44px}.skills-panel{padding:28px;border:1px solid color-mix(in srgb,var(--default-color),transparent 88%);border-radius:18px;background:var(--surface-color);box-shadow:0 12px 32px rgba(15,48,82,.08)}.skills-panel-heading{display:flex;align-items:flex-start;gap:14px;margin-bottom:24px}.skills-panel-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 46px;width:46px;height:46px;border-radius:14px;color:#fff;background:var(--accent-color);font-size:21px;box-shadow:0 8px 18px color-mix(in srgb,var(--accent-color),transparent 72%)}.skills-panel-heading h3{margin:0 0 6px;font-size:22px;font-weight:700}.skills-panel-heading p{margin:0;color:color-mix(in srgb,var(--default-color),transparent 30%);line-height:1.55}.skill-category+.skill-category{margin-top:22px}.skill-category h4{margin-bottom:11px;font-size:15px;font-weight:700;color:var(--heading-color)}.skill-badges{display:flex;flex-wrap:wrap;gap:9px}.skill-badges span{display:inline-flex;align-items:center;min-height:34px;padding:7px 12px;border:1px solid color-mix(in srgb,var(--accent-color),transparent 76%);border-radius:999px;background:color-mix(in srgb,var(--accent-color),transparent 93%);color:var(--heading-color);font-size:13px;font-weight:600;line-height:1.2;transition:.2s}.skill-badges span:hover{transform:translateY(-2px);background:color-mix(in srgb,var(--accent-color),transparent 87%)}.professional-skills-panel{background:linear-gradient(145deg,color-mix(in srgb,var(--accent-color),transparent 96%),var(--surface-color) 48%)}.professional-skill-list{display:grid;gap:11px}.professional-skill-item{display:flex;align-items:center;gap:12px;min-height:48px;padding:11px 14px;border:1px solid color-mix(in srgb,var(--default-color),transparent 89%);border-radius:12px;background:color-mix(in srgb,var(--surface-color),transparent 5%);font-size:14px;font-weight:600;transition:.2s}.professional-skill-item i{color:var(--accent-color);font-size:17px}.professional-skill-item:hover{transform:translateX(4px);border-color:color-mix(in srgb,var(--accent-color),transparent 62%)}@media(max-width:575px){.skills-panel{padding:21px 18px}.skill-badges span{font-size:12px}}
+
+
+
+
+/* =========================================================
+   Perapihan Hard Skills
+   ========================================================= */
+
+.skills-panel {
+  padding: 32px;
+}
+
+.skills-panel-heading {
+  margin-bottom: 30px;
+}
+
+/* Setiap kelompok skill dibuat lebih terpisah */
+.skill-category {
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(15, 48, 82, 0.1);
+}
+
+/* Hilangkan garis pada kategori terakhir */
+.skill-category:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Jarak antar kategori */
+.skill-category + .skill-category {
+  margin-top: 6px;
+}
+
+/* Judul kategori */
+.skill-category h4 {
+  margin: 0 0 14px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* Jarak antar badge */
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+}
+
+/* Badge dibuat lebih lega */
+.skill-badges span {
+  min-height: 36px;
+  padding: 8px 14px;
+  line-height: 1.3;
+}
+
+/* Tampilan tablet dan mobile */
+@media (max-width: 768px) {
+  .skills-panel {
+    padding: 24px 20px;
+  }
+
+  .skill-category {
+    padding: 16px 0;
+  }
+
+  .skill-badges {
+    gap: 8px;
+  }
+
+  .skill-badges span {
+    padding: 7px 11px;
+    font-size: 12px;
+  }
+}
