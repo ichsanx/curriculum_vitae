@@ -94,22 +94,32 @@
   window.addEventListener("load", aosInit);
 
   /**
-   * Init typed.js
+   * Init typed.js with bilingual support
    */
-  const selectTyped = document.querySelector(".typed");
-  if (selectTyped && window.Typed) {
-    let typed_strings = selectTyped.getAttribute("data-typed-items");
-    if (typed_strings) {
-      typed_strings = typed_strings.split(",");
-      new Typed(".typed", {
-        strings: typed_strings,
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 2000,
-      });
+  let portfolioTypedInstance = null;
+  window.initPortfolioTyped = function () {
+    const selectTyped = document.querySelector(".typed");
+    if (!selectTyped || !window.Typed) return;
+
+    if (portfolioTypedInstance) {
+      portfolioTypedInstance.destroy();
+      portfolioTypedInstance = null;
     }
-  }
+
+    const typedStrings = (selectTyped.getAttribute("data-typed-items") || "")
+      .split(",")
+      .map(item => item.trim())
+      .filter(Boolean);
+
+    portfolioTypedInstance = new Typed(".typed", {
+      strings: typedStrings,
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40,
+      backDelay: 1800,
+    });
+  };
+  window.initPortfolioTyped();
 
   /**
    * Initiate Pure Counter
@@ -258,6 +268,18 @@
   document.addEventListener("scroll", navmenuScrollspy);
 
   // === SINGLE PAGE PORTFOLIO (Card + Modal) ===
+
+  function portfolioLanguage() {
+    return window.PortfolioI18n?.getLanguage?.() === "id" ? "id" : "en";
+  }
+
+  function localized(item, field) {
+    const lang = portfolioLanguage();
+    if (lang === "id" && item[`${field}_id`]) return item[`${field}_id`];
+    return item[field] || "";
+  }
+
+
   (async function renderPortfolio() {
     const grid = document.getElementById("portfolio-grid");
     if (!grid) return;
@@ -267,15 +289,15 @@
       <div class="col-lg-4 col-md-6">
         <div class="portfolio-item h-100">
           <div class="portfolio-wrap">
-            <img src="${item.image}" class="img-fluid" alt="${item.title}" loading="lazy">
+            <img src="${item.image}" class="img-fluid" alt="${localized(item, 'title')}" loading="lazy">
             <div class="portfolio-info">
-              <h4>${item.title}</h4>
-              <p>${item.subtitle ?? ""}</p>
+              <h4>${localized(item, 'title')}</h4>
+              <p>${localized(item, 'subtitle')}</p>
               <div class="mt-2">
                 <a class="btn btn-outline-primary btn-sm rounded-pill js-readmore"
                    href="#project=${encodeURIComponent(item.slug)}"
                    data-slug="${item.slug}">
-                   View Project ✨
+                   ${portfolioLanguage() === "id" ? "Lihat Proyek" : "View Project"} ✨
                 </a>
               </div>
             </div>
@@ -285,36 +307,69 @@
     `;
 
     let portfolioData = [];
-    try {
-      const res = await fetch("assets/data/portfolio.json", { cache: "no-store" });
-      portfolioData = await res.json();
 
-      grid.innerHTML = Array.isArray(portfolioData) && portfolioData.length
-        ? portfolioData.map(card).join("")
-        : `<div class="col-12 text-center text-muted">No projects yet.</div>`;
+    try {
+      // Local-preview safe: use embedded JS data first.
+      if (Array.isArray(window.PORTFOLIO_DATA) && window.PORTFOLIO_DATA.length) {
+        portfolioData = window.PORTFOLIO_DATA;
+      } else {
+        // GitHub Pages / web-server fallback.
+        const res = await fetch("assets/data/portfolio.json", { cache: "no-store" });
+        if (!res.ok) {
+          throw new Error(`Portfolio data request failed with status ${res.status}`);
+        }
+        portfolioData = await res.json();
+      }
+
+      window.renderPortfolioCards = function () {
+        grid.innerHTML = Array.isArray(portfolioData) && portfolioData.length
+          ? portfolioData.map(card).join("")
+          : `<div class="col-12 text-center"><div class="alert alert-info">${
+              portfolioLanguage() === "id"
+                ? "Belum ada data portofolio."
+                : "No portfolio data available."
+            }</div></div>`;
+      };
+      window.renderPortfolioCards();
 
       if (window.AOS?.refresh) AOS.refresh();
     } catch (err) {
       console.error("Portfolio load error:", err);
-      grid.innerHTML = `<div class="col-12 text-center"><div class="alert alert-warning">Failed to load portfolio data.</div></div>`;
+      grid.innerHTML = `<div class="col-12 text-center"><div class="alert alert-warning">${
+        portfolioLanguage() === "id"
+          ? "Gagal memuat data portofolio."
+          : "Failed to load portfolio data."
+      }</div></div>`;
       return;
     }
 
     // --- Modal helpers ---
-    const modalEl = document.getElementById('projectModal');
-    const bsModal = modalEl ? new bootstrap.Modal(modalEl) : null;
+    const modalEl = document.getElementById("projectModal");
+    let bsModal = null;
 
-      async function openProject(slug) {
-      if (!bsModal) return;
+    function getProjectModal() {
+      if (!modalEl || !window.bootstrap?.Modal) return null;
+      if (!bsModal) {
+        bsModal = bootstrap.Modal.getOrCreateInstance(modalEl);
+      }
+      return bsModal;
+    }
+
+    async function openProject(slug) {
+      const modalInstance = getProjectModal();
+      if (!modalInstance) {
+        console.error("Project modal could not be initialized.");
+        return;
+      }
 
       const item = portfolioData.find(x => x.slug === slug);
       if (!item) return;
 
       // Isi konten tentang proyek
-      document.getElementById('pm-title').textContent = item.title;
-      document.getElementById('pm-subtitle').textContent = item.subtitle ?? '';
+      document.getElementById('pm-title').textContent = localized(item, 'title');
+      document.getElementById('pm-subtitle').textContent = localized(item, 'subtitle');
       const heroSrc = (item.gallery && item.gallery[0]) || item.image;
-      document.getElementById('pm-hero').innerHTML = heroSrc ? `<img src="${heroSrc}" alt="${item.title}" class="img-fluid">` : '';
+      document.getElementById('pm-hero').innerHTML = heroSrc ? `<img src="${heroSrc}" alt="${localized(item, 'title')}" class="img-fluid">` : '';
       document.getElementById('pm-skills').innerHTML = (item.skills || []).map(s => `<span class="tag">${s}</span>`).join('');
       const links = [];
       if (item.link) links.push(`<a class="btn btn-outline-primary btn-sm" href="${item.link}" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i> Link</a>`);
@@ -322,15 +377,15 @@
       document.getElementById('pm-links').innerHTML = links.join(' ');
       
       // Gunakan innerHTML untuk menampilkan konten `about` dengan link
-      document.getElementById('pm-about').innerHTML = item.about ?? '';  // Ini yang penting!
+      document.getElementById('pm-about').innerHTML = localized(item, 'about');
 
       // Handle gallery images
       document.getElementById('pm-hero').innerHTML = item.gallery && item.gallery.length
-        ? item.gallery.map(src => `<img src="${src}" alt="${item.title}" class="img-fluid">`).join('')
-        : `<img src="${item.image}" alt="${item.title}" class="img-fluid">`;
+        ? item.gallery.map(src => `<img src="${src}" alt="${localized(item, 'title')}" class="img-fluid">`).join('')
+        : `<img src="${item.image}" alt="${localized(item, 'title')}" class="img-fluid">`;
 
       // Tampilkan modal
-      bsModal.show();
+      modalInstance.show();
     }
 
 
@@ -368,3 +423,16 @@
 
   
 })();
+
+
+document.addEventListener("portfolioLanguageChanged", () => {
+  const grid = document.getElementById("portfolio-grid");
+  if (grid && typeof window.renderPortfolioCards === "function") {
+    window.renderPortfolioCards();
+  }
+
+  // Refresh the currently opened project modal through the existing hash handler.
+  if (location.hash.startsWith("#project=")) {
+    window.dispatchEvent(new HashChangeEvent("hashchange"));
+  }
+});

@@ -1,4 +1,4 @@
-[
+window.PORTFOLIO_DATA = [
   {
     "slug": "enterprise-project-monitoring-dashboard",
     "title": "Enterprise Project Monitoring Dashboard",
@@ -510,4 +510,4 @@
     "subtitle_id": "PHP / MySQL / Full-stack",
     "about_id": "Learned web design and backend development at WebHozz, focusing on creating dynamic PHP-based websites. Topics covered included choosing color schemes, writing layouts, CRUD operations, and implementing server-side functionality."
   }
-]
+];
