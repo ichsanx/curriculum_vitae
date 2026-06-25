@@ -1568,3 +1568,38 @@ font icon samping judul
     font-size: 12px;
   }
 }
+
+
+
+
+
+/* Hard Skills - stronger spacing and grouping */
+.skills-panel .skill-category {
+  margin: 0 !important;
+  padding: 20px 0 !important;
+  border-bottom: 1px solid rgba(15, 48, 82, 0.12) !important;
+}
+
+.skills-panel .skill-category:first-of-type {
+  padding-top: 8px !important;
+}
+
+.skills-panel .skill-category:last-child {
+  border-bottom: none !important;
+  padding-bottom: 4px !important;
+}
+
+.skills-panel .skill-category h4 {
+  margin: 0 0 14px !important;
+  font-size: 16px !important;
+  line-height: 1.4 !important;
+}
+
+.skills-panel .skill-badges {
+  gap: 10px 10px !important;
+}
+
+.skills-panel .skill-badges span {
+  padding: 8px 13px !important;
+  min-height: 36px !important;
+}
